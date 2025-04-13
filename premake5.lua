@@ -24,8 +24,7 @@ project "GLFW"
 
 		"src/platform.c",
 		"src/vulkan.c",
-		"src/window.c",
-		"src/**.c"
+		"src/window.c"
 	}
 
 	filter "system:linux"
@@ -42,7 +41,7 @@ project "GLFW"
 			"src/posix_module.c",
 			"src/posix_time.c",
 			"src/posix_thread.c",
-			"src/posix_module.c",
+			"src/posix_poll.c",
 			"src/glx_context.c",
 			"src/egl_context.c",
 			"src/osmesa_context.c",
